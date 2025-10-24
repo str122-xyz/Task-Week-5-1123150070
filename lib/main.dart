@@ -44,7 +44,7 @@ class Home extends StatelessWidget {
               "Container 1",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
-                color: Colors.purple,
+                color: Colors.deepPurple,
               ),
             ),
             Container(

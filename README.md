@@ -14,3 +14,4 @@ Step by step dari awal start sampe akhir finally
 -Mengubah warna box decoration di container kedua
 -Update Readme.md
 -Tambah teks dikedua container
+-Ubah warna teks
