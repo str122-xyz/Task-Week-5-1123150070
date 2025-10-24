@@ -24,24 +24,51 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Container"),
+        title: Text("Container"),
         backgroundColor: Colors.indigo,
         actions: [
           Icon(Icons.play_arrow, color: Colors.white),
+          SizedBox(width: 10),
           Icon(Icons.access_alarm),
           SizedBox(width: 10),
           Icon(Icons.person),
           SizedBox(width: 10),
         ],
       ),
-      body: SingleChildScrollView(
-        child: Container(
-          width: double.infinity,
-          height: double.infinity,
-          alignment: Alignment.center,
-          color: Colors.deepPurple,
-          child: Text("Inilah dia"),
-        ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Container(
+            height: 200,
+            width: 200,
+            margin: EdgeInsets.all(20),
+            decoration: BoxDecoration(
+              color: Colors.blue,
+              borderRadius: BorderRadius.circular(40),
+              gradient: LinearGradient(
+                begin: Alignment.topRight,
+                end: Alignment.bottomLeft,
+                colors: [Colors.blue, Colors.red],
+              ),
+            ),
+          ),
+
+          Container(
+            height: 200,
+            width: 200,
+            margin: EdgeInsets.all(20),
+            decoration: BoxDecoration(
+              color: Colors.blue,
+              borderRadius: BorderRadius.circular(40),
+              gradient: LinearGradient(
+                begin: Alignment.topRight,
+                end: Alignment.bottomLeft,
+                colors: [Colors.blue, Colors.red],
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
