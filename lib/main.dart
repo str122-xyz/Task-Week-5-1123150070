@@ -40,6 +40,13 @@ class Home extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
+            Text(
+              "Container 1",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.purple,
+              ),
+            ),
             Container(
               height: 200,
               width: 200,
@@ -53,6 +60,11 @@ class Home extends StatelessWidget {
                   colors: [Colors.blue, Colors.red],
                 ),
               ),
+            ),
+
+            Text(
+              "Container 2",
+              style: TextStyle(fontWeight: FontWeight.bold, color: Colors.lime),
             ),
 
             Container(
