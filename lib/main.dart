@@ -31,13 +31,16 @@ class Home extends StatelessWidget {
           Icon(Icons.access_alarm),
           SizedBox(width: 10),
           Icon(Icons.person),
-          SizedBox(width: 20),
+          SizedBox(width: 10),
         ],
       ),
       body: SingleChildScrollView(
         child: Container(
-          padding: const EdgeInsets.all(20.0),
-          child: const Column(children: []),
+          width: double.infinity,
+          height: double.infinity,
+          alignment: Alignment.center,
+          color: Colors.deepPurple,
+          child: Text("Inilah dia"),
         ),
       ),
     );
