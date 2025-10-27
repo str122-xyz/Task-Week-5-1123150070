@@ -2,8 +2,8 @@
 
 **Cara Menjalankan:**
 ```bash
-flutter run```
-
+flutter run
+```
 ## Step by step dari awal start sampe finally akhir
 **Berikut adalah langkah-langkah yang dilakukan dalam proyek ini:**
 
