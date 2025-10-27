@@ -6,6 +6,7 @@ flutter run
 
 ## Step by step dari awal start sampe finally akhir
 **Berikut adalah langkah-langkah yang dilakukan dalam proyek ini:**
+
 * Initial commit
 * Hapus semua generate code di file utama
 * Membuat Stateless MyApp dengan place holder
